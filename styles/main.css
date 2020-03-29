@@ -770,3 +770,7 @@ a {
         color: #364fc7;
       }
     
+      .post-item .right .feature-container {
+        border-radius: 4px;
+      }
+    
