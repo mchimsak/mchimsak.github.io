@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://mchimsak.github.io</id>
+    <title>Magic fog官方网站</title>
+    <updated>2020-03-29T03:43:05.455Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://mchimsak.github.io"/>
+    <link rel="self" href="https://mchimsak.github.io/atom.xml"/>
+    <subtitle>本网站为magic fog官方站</subtitle>
+    <logo>https://mchimsak.github.io/images/avatar.png</logo>
+    <icon>https://mchimsak.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2020, Magic fog官方网站</rights>
+    <entry>
+        <title type="html"><![CDATA[加入我们]]></title>
+        <id>https://mchimsak.github.io/post/jia-ru-wo-men/</id>
+        <link href="https://mchimsak.github.io/post/jia-ru-wo-men/">
+        </link>
+        <updated>2020-03-29T03:36:29.000Z</updated>
+        <content type="html"><![CDATA[<p>如果你想加入加入我们国服hypixel工会输入/g join SeMyyy<br>
+公会聊天群：651211983(请所有成员将自己群名改成自己的游戏ID，加入公会需求：暂无，本公会只支持大号加公会，小号勿扰)</p>
+]]></content>
+    </entry>
+</feed>
