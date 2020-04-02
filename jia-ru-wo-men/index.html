@@ -3,17 +3,23 @@
   <head>
     <meta charset="utf-8" >
 
-<title>加入我们 | Magic fog官方网站</title>
-<meta name="description" content="本网站为magic fog官方站">
+<title>加入我们 | Magic fog官方blog</title>
+<meta name="description" content="本网站为magic fog官方blog">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://mchimsak.github.io/favicon.ico?v=1585625460653">
+<link rel="shortcut icon" href="https://mchimsak.github.io/favicon.ico?v=1585832483974">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://mchimsak.github.io/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
@@ -26,7 +32,7 @@
   
     <nav class="navbar border fixed split-nav">
   <div class="nav-brand">
-    <h3><a href="https://mchimsak.github.io">Magic fog官方网站</a></h3>
+    <h3><a href="https://mchimsak.github.io">Magic fog官方blog</a></h3>
   </div>
   <div class="collapsible">
     <input id="collapsible1" type="checkbox" name="collapsible1">
@@ -106,12 +112,20 @@
           
         </div>
         
+          
+            <div class="paper" data-aos="fade-in">
+              <div id="gitalk-container"></div>
+            </div>
+          
+
+          
+        
       </div>
 
       <div class="sm-12 md-4 col sidebar">
   <div class="paper info-container">
-    <img src="https://mchimsak.github.io/images/avatar.png?v=1585625460653" class="no-responsive avatar">
-    <div class="text-muted">本网站为magic fog官方站</div>
+    <img src="https://mchimsak.github.io/images/avatar.png?v=1585832483974" class="no-responsive avatar">
+    <div class="text-muted">本网站为magic fog官方blog</div>
     <div class="social-container">
       
         
@@ -175,6 +189,29 @@ AOS.init();
 hljs.initHighlightingOnLoad()
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '52858546a9a3a599a235',
+        clientSecret: '8dd0ec46037aed4ed712c26cd47dda00327b801c',
+        repo: 'mchimsak.github.io',
+        owner: 'mchimsak',
+        admin: ['mchimsak'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
